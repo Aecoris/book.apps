@@ -5,7 +5,7 @@ function App() {
   const [books, setBooks] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
-  const [query, setQuery] = useState('cat');
+  const [query, setQuery] = useState('dog');
 
   useEffect(() => {
     setIsLoading(true);
